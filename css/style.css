@@ -1,0 +1,218 @@
+/*General styles*/
+:root {
+  --main-color: #212121;
+  --second-color: #757575;
+  --accent-color: #2196f3;
+  --third-color: #ffffff;
+}
+body {
+  font-family: "Roboto", "Raleway", "Tahoma", san-serif;
+  background-color: #ffffff;
+  color: var(--main-color);
+  font-size: 14px;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 14);
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.color-header {
+  color: #000000;
+}
+.color-footer {
+  color: var(--third-color);
+}
+.button {
+  cursor: pointer;
+  font-family: inherit;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*Header styles*/
+
+.header-list-item {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  font-family: inherit;
+  color: inherit;
+}
+
+.header-list-item:hover,
+.header-list-item:focus {
+  color: var(--accent-color);
+}
+
+.header-mail {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+.header-tel {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+.accent:visited {
+  color: var(--accent-color);
+}
+
+/*Start styles*/
+.start {
+  background-color: #2f303a;
+}
+.start-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+.start-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--third-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+
+/*Feature styles*/
+.feature-titles {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.fearture-after-title {
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+/*About styles*/
+.about-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-main-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.after-title {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+/*Footer styles*/
+footer {
+  background-color: #2f303a;
+}
+.footer-adress {
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+.footer-mail {
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address {
+  font-style: normal;
+}
+.footer-color:hover,
+.footer-color:focus {
+  color: var(--accent-color);
+}
+
+/*PORTFOLIO*/
+.portfolio-link {
+  color: inherit;
+  font-family: inherit;
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: calc(18 / 14);
+  letter-spacing: 0.06em;
+}
+.portfolio-title:hover,
+.portfolio-title:focus {
+  color: var(--third-color);
+  background: var(--accent-color);
+}
+
+.portfolio-after-title {
+  font-size: 16px;
+  line-height: calc(30 / 14);
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--third-color);
+  background: var(--accent-color);
+}
