@@ -79,6 +79,7 @@ ul {
 header .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .list-item {
   display: flex;
@@ -98,16 +99,19 @@ header .container {
 .list-item .item:not(:last-child) {
   margin-right: 50px;
 }
-.list-item .item {
-  margin-top: 32px;
-  margin-bottom: 32px;
+.header-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .header-list-item:hover,
 .header-list-item:focus {
   color: var(--accent-color);
 }
 header .logo {
-  margin: 24px 93px 25px 0;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .list-contact .item:not(:last-child) {
@@ -178,6 +182,8 @@ header .logo {
 /*Feature styles*/
 .features .container {
   display: flex;
+}
+.features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -191,6 +197,7 @@ header .logo {
 }
 
 .feature-titles {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -224,6 +231,7 @@ header .logo {
 
 /* Team styles*/
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--background-color);
 }
@@ -240,7 +248,6 @@ header .logo {
   background-color: var(--third-color);
 }
 .team-main-title {
-  padding-top: 94px;
   margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -267,8 +274,6 @@ header .logo {
 /*Footer styles*/
 footer {
   background-color: var(--footer-color);
-}
-footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -313,9 +318,11 @@ footer .list .items:not(:last-child) {
   color: inherit;
   font-family: inherit;
 }
-.container-item {
+
+.portfolio-list {
   display: flex;
   justify-content: center;
+  margin: 0 auto 50px;
 }
 .portfolio-list .item {
   margin-right: 8px;
@@ -324,9 +331,12 @@ footer .list .items:not(:last-child) {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  box-sizing: content-box;
 }
 .main-items {
-  flex-basis: calc((100%-30px) / 9);
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  flex-basis: calc((100%-30px) / 3);
 }
 .portfolio-title {
   font-size: 18px;
@@ -341,12 +351,9 @@ footer .list .items:not(:last-child) {
   color: var(--second-color);
 }
 .portfolio-text {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0 20px 24px;
 }
 .portfolio-btn {
-  display: flex;
-  margin: 0 auto 50px;
   padding: 6px 22px;
   align-items: center;
   text-align: center;
