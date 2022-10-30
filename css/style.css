@@ -70,7 +70,7 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.img {
+img {
   display: block;
   width: 100%;
   height: auto;
@@ -336,7 +336,7 @@ footer .list .items:not(:last-child) {
 .main-items {
   background-color: #fff;
   border: 1px solid #eeeeee;
-  flex-basis: calc((100%-30px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
 }
 .portfolio-title {
   font-size: 18px;
